@@ -1,0 +1,15 @@
+.heroContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+}
+
+.heroCard{
+    height: 90%;
+    width: 70%;
+    background-color: transparent;
+    border: 2px solid #b3ffb2;
+    border-radius: 4px;
+}
