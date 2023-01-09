@@ -1,9 +1,11 @@
 import styles from "./styles/index.module.css";
 const Hero = () => {
   return (
-    <section className={styles.heroContainer}>
-      <div className={styles.heroCard}></div>
-    </section>
+    <div className={styles.heroContainer}>
+      <section>
+        <h1 id={styles.mainText}>Bruno Malagoli</h1>
+      </section>
+    </div>
   );
 };
 

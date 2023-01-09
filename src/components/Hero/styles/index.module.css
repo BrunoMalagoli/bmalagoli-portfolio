@@ -1,15 +1,22 @@
 .heroContainer{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 85vh;
     width: 100%;
+    background: linear-gradient(
+    to top,
+    #b3ffb2 0%,
+    #b3ffb2 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
 }
-
-.heroCard{
-    height: 90%;
-    width: 70%;
-    background-color: transparent;
-    border: 2px solid #b3ffb2;
-    border-radius: 4px;
+#mainText{
+    font-size: 90px;
+    font-family: "Domine";
+}
+#mainText::after{
+    mix-blend-mode: difference;
+    color: white;
 }
