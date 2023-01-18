@@ -39,7 +39,9 @@
     width: 100%;
     text-align: center;
 }
-
+.highlight{
+    color: #b3ffb2;
+}
 
 @media screen and (min-width : 760px) {
     #heroContainer{
@@ -61,7 +63,7 @@
         flex-direction: column;
         align-items: left;
         justify-content: center;
-        gap: 2%;
+        gap: 5%;
         height: 100%;
         width: 45%;
     }
@@ -86,11 +88,20 @@
         background-color: transparent;
         display: block;
     }
+    #mediaContainer{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 5%;
+    }
     .subText{
         color: #FFFFFF;
         width: 100%;
         text-align: left;
     }
-    
+    .highlight{
+        color: #b3ffb2;
+    }
 }
 
