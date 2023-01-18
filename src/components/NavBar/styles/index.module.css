@@ -5,15 +5,10 @@
     height: 15vh;
     background-color: transparent;
 }
-.navBar{
+.menu{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 100%;
+    justify-content: center;
+    width: 10%;
 }
  
-.navBar > a {
-    padding: 8px;
-    background-color: #b3ffb2;
-    border-radius: 8px;
-}
