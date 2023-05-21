@@ -1,6 +1,8 @@
+/*Verde : #4CBD79*/
+
 /*Contenedores*/
 .nav_container{
-    width: 100%;
+    width: 96%;
     height: 12vh;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
     display: flex;
@@ -8,6 +10,7 @@
     justify-content: space-around;
     padding-left: 2%;
     padding-right: 2%;
+    position: fixed;
 }
 .nav_links_container{
     display: flex;
@@ -16,9 +19,7 @@
     width: 100%;
     height: 100%;
 }
-.logo_container{
 
-}
 /*Elementos del nav*/
 .nav_links{
     color: rgba(0,0,0,.55);
@@ -27,6 +28,11 @@
     width: 75%;
     height: 100%;
     flex-direction: row ;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.nav_links > li{
+    width: 20%;
+    text-align: left;
+    font-size: larger;
 }
