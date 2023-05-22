@@ -1,0 +1,46 @@
+/*
+Negro texto : #212529
+Verde secundario:  #4CBD79
+*/
+.main_container{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container > div > p{
+    color: #03983e;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.main_container > div > h1{
+    color: #212529 ;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.main_container > div > span{
+    color: #212529 ;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+.main_container > div > span > span{
+    font-size: 1.5rem;
+    color: #03983e;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.down_button{
+    margin-top: 1rem;
+    text-align: center;
+}
+.down_button > span :hover{
+    cursor: pointer;
+}

@@ -1,7 +1,10 @@
+
+
 .hero_container{
-    height: 100vh;
+    height: 88vh;
     width: 100%;
-    display: block;
+    position: relative;
+    top: 12vh;
 }
 .particles_container{
     top: 12vh;
