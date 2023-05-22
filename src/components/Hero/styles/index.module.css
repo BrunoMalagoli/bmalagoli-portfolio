@@ -1,14 +1,21 @@
 
 
 .hero_container{
-    height: 88vh;
+    height: 100vh;
     width: 100%;
-    position: relative;
-    top: 12vh;
+    display: block;
 }
 .particles_container{
-    top: 12vh;
-    height: 88vh;
+    height: 100vh;
     width: 100%;
     position: absolute;
+    z-index: -200;
+}
+.down_button{
+    height: 8%;
+    display: block;
+    text-align: center;
+}
+.down_button :hover{
+    cursor: pointer;
 }

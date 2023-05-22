@@ -1,4 +1,5 @@
-import MainText from "./components/MainText/MainText";
+import IconArrowDownCircle from "./components/IconArrowDown";
+import MainText from "./components/MainText";
 import ParticleElement from "./components/ParticleElement";
 import HeroStyles from "./styles/index.module.css";
 const Hero = () => {
@@ -9,6 +10,9 @@ const Hero = () => {
       </div>
       <section className={HeroStyles.hero_container}>
         <MainText />
+        <div className={HeroStyles.down_button}>
+          <IconArrowDownCircle />
+        </div>
       </section>
     </>
   );

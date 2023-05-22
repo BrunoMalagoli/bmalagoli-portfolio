@@ -1,4 +1,3 @@
-import IconArrowDownCircle from "../IconArrowDown";
 import MainTextStyles from "./styles/index.module.css";
 import Typewriter from "typewriter-effect";
 
@@ -29,11 +28,6 @@ const MainText = () => {
             </span>
           </span>
         </div>
-      </div>
-      <div className={MainTextStyles.down_button}>
-        <span>
-          <IconArrowDownCircle />
-        </span>
       </div>
     </>
   );

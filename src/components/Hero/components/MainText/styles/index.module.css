@@ -3,7 +3,7 @@ Negro texto : #212529
 Verde secundario:  #4CBD79
 */
 .main_container{
-    height: 70%;
+    height: 90%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -14,11 +14,13 @@ Verde secundario:  #4CBD79
     text-align: center;
     font-weight: 600;
     font-size: 1.5rem;
+    padding: 2%;
 }
 .main_container > div > h1{
     color: #212529 ;
     font-size: 5rem;
     text-align: center;
+    margin-bottom: 2%;
 }
 
 .main_container > div > span{
@@ -28,6 +30,7 @@ Verde secundario:  #4CBD79
     align-items: center;
     justify-content: center;
     gap: 1%;
+    padding: 2%;
 }
 .main_container > div > span > span{
     font-size: 1.5rem;
@@ -37,10 +40,3 @@ Verde secundario:  #4CBD79
     font-size: 1.5rem;
 }
 
-.down_button{
-    margin-top: 1rem;
-    text-align: center;
-}
-.down_button > span :hover{
-    cursor: pointer;
-}

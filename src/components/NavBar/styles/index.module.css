@@ -2,6 +2,7 @@
 
 /*Contenedores*/
 .nav_container{
+    background-color: #f9f9f7 ;
     width: 96%;
     height: 12vh;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
