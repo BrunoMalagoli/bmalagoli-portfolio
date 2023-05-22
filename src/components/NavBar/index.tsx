@@ -3,7 +3,7 @@ const NavBar = () => {
   return (
     <nav className={NavStyles.nav_container}>
       <div id={NavStyles.logo}>
-        <img width={"50px"} src="/logo.svg" alt="logo" />
+        <img width={"50px"} src="src/assets/logo.svg" alt="logo" />
       </div>
       <div className={NavStyles.nav_links_container}>
         <ul className={NavStyles.nav_links}>

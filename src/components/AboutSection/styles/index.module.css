@@ -1,3 +1,42 @@
 .about_container{
-    height: 88vh;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about_img_container{
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_img{
+    height: 20rem;
+    width: 20rem;
+    animation: morph 8s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    background-image: url("src/assets/profile.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border: 3px solid #03983e;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+}
+.about_content{
+    height: 100%;
+    width: 30rem;
+}
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 }

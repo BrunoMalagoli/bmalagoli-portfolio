@@ -12,6 +12,7 @@
     padding-left: 2%;
     padding-right: 2%;
     position: fixed;
+    z-index: 10;
 }
 .nav_links_container{
     display: flex;
