@@ -1,13 +1,15 @@
 .about_container{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+/*Imagen*/
 .about_img_container{
-    height: 100%;
-    width: 30rem;
+    height: 80%;
+    width: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,10 +27,56 @@
     border: 3px solid #03983e;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 }
+
+/*Texto de descripción*/
 .about_content{
     height: 100%;
-    width: 30rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
+.about_content>h2{
+    padding-top: 5vh;
+    font-size: 3.5rem;
+    width: 100%;
+}
+.about_content>p{
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+/*Botón*/
+.about_content > div{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_content > div > button{
+    width: 50%;
+    height: 50%;
+    background: #4CBD79;
+    border-bottom: 3px solid #2f8e4e;
+    -webkit-box-shadow: inset 0 -3px #2f8e4e;
+    box-shadow: inset 0 -3px #2f8e4e;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.about_content > div > button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #057230;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.about_content > div > button >a {
+    text-decoration: none;
+    color: #fff;
+}
+/*Animacion para el borde de la imagen*/
 @keyframes morph {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -38,5 +86,61 @@
     }
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
+/*Media querys*/
+
+@media (max-width: 992px) {
+    .about_content{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .about_img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .about_img_container{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .about_container{
+        height: 100vh;
+    }
+    .about_content > div{
+        width: 100%;
+        height: 4rem;
+        margin-top: 3%;
+    }
+    .about_content > div > button{
+        width: 80%;
+        height: 100%;
+    }
+}
+@media (max-width: 480px){
+    .about_img{
+        height: 20rem;
+        width: 20rem;
+    }
+    .about_img_container{
+        height: 60%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about_content > div{
+        width: 100%;
+        height: 6rem;
+        margin-top: 3%;
     }
 }
