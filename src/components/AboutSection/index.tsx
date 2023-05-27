@@ -18,7 +18,7 @@ const AboutSection = () => {
             carrera como programador de forma autodidacta. A través de cursos y
             exploración en Internet, fortalecí mis habilidades y decidí dar un
             paso más al inscribirme en una Tecnicatura Universitaria en
-            Programación.
+            Programación en la Universidad Tecnologica Nacional.
           </p>
           <p>
             Actualmente, estoy cursando la tecnicatura mientras sigo
