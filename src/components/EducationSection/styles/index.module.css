@@ -1,0 +1,16 @@
+section{
+    height: 100%;
+    padding-bottom: 8vh;
+    padding-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#educacion_container{
+    width: 80%;
+    padding: 2rem;
+}
+#educacion_container > h2{
+    color: #03983e;
+    font-size: 3.3rem;
+}

@@ -1,9 +1,11 @@
 #about_container{
-    height: 90vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 8vh;
+    padding-top: 10vh;
 }
 
 /*Imagen*/
@@ -17,6 +19,7 @@
 .about_img{
     height: 20rem;
     width: 20rem;
+    margin-top: 5vh;
     animation: morph 8s ease-in-out infinite;
     transition: all 1s ease-in-out;
     background-image: url("src/assets/profile.jpg");
@@ -115,6 +118,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 0;
     }
 }
 @media (max-width: 768px) {
@@ -129,6 +133,9 @@
     .about_content > div > button{
         width: 80%;
         height: 100%;
+    }
+    .about_img_container{
+        margin-top: 0;
     }
 }
 @media (max-width: 480px){
@@ -145,6 +152,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 0;
     }
     .about_content > div{
         width: 100%;

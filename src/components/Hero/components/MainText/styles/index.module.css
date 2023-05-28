@@ -3,7 +3,7 @@ Negro texto : #212529
 Verde secundario:  #4CBD79
 */
 .main_container{
-    height: 90%;
+    height: 80%;
     width: 100%;
     display: flex;
     align-items: center;
