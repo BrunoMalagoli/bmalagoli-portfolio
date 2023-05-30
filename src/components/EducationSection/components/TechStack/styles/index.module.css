@@ -25,7 +25,7 @@
 
 @media (min-width: 992px) {
     #tstack_container{
-        width: 60%;
+        width: 80%;
         padding: 2rem;
     }
     #tstack_container > div{
@@ -34,6 +34,6 @@
         flex-direction: row;
         justify-content: center;
         align-content: space-evenly;
-        gap: 10%;
+        gap: 6%;
     }
 }
