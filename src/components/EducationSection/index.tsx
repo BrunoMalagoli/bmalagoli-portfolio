@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import EducationStyles from "./styles/index.module.css";
 import EducationElement from "./components/EducationElement";
+import TechStackSection from "./components/TechStack";
 
 const EducationSection = () => {
   return (
@@ -43,6 +44,8 @@ const EducationSection = () => {
           />
         </div>
       </section>
+      {/*Tech Stack Section*/}
+      <TechStackSection />
     </Element>
   );
 };

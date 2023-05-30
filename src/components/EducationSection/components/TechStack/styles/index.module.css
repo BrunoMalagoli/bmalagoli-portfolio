@@ -1,0 +1,39 @@
+#tstack_section{
+    padding-top: 0vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#tstack_container{
+    padding: 2rem;
+    width: 80%;  
+}
+#tstack_container > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+#tstack_container > h2{
+    color: #03983e;
+    text-align: left;
+    width: 100%;
+    font-size: 3.1em;
+    padding-bottom: 2vh;
+}
+
+@media (min-width: 992px) {
+    #tstack_container{
+        width: 60%;
+        padding: 2rem;
+    }
+    #tstack_container > div{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-evenly;
+        gap: 10%;
+    }
+}

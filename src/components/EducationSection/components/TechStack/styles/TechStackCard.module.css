@@ -1,0 +1,38 @@
+.card_container{
+    width: 60vw;
+    height: 30%;
+    padding: 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+}
+.card_body > h3 {
+    text-align: center;
+    padding: 2vh;
+    font-weight: 600;
+    font-size: 2rem;
+    border-bottom: 1px solid #dee2e6 ;
+}
+
+.card_body > p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2vh;
+    padding-bottom: 3vh;
+}
+
+ .card_icons_container{
+    text-align: center;
+    height: 50%;
+}
+.card_icons_container > span{
+    padding: 5%;
+} 
+
+@media (min-width: 778px) {
+    .card_container{
+        height: 70%;
+        padding: 8%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 1rem;
+    }
+}
