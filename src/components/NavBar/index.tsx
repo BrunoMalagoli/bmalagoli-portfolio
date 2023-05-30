@@ -38,7 +38,7 @@ const NavBar = () => {
             <li>Educación</li>
           </Link>
           <Link
-            to=""
+            to="proyectos"
             spy={true}
             smooth={true}
             duration={200}
