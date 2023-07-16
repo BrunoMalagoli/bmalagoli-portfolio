@@ -11,6 +11,6 @@ section{
     padding: 2rem;
 }
 .projects_container > h2{
-    color: #03983e;
+    width: 100%;
     font-size: 3.3rem;
 }
