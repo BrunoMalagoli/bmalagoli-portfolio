@@ -1,0 +1,28 @@
+.custom-shape-divider-bottom-1689571958 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689571958 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-bottom-1689571958 .shape-fill {
+    fill: #4CBD79;
+}
+.waveContainer{
+    position: relative;
+    margin-top: 20%;
+}
+.contactSection{
+    height: 30vh;
+    background-color: #4CBD79 ;
+}
