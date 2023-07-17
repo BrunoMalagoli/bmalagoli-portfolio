@@ -1,3 +1,4 @@
+/*WAVES*/
 .custom-shape-divider-bottom-1689571958 {
     position: absolute;
     bottom: 0;
@@ -22,7 +23,30 @@
     position: relative;
     margin-top: 20%;
 }
+
+/*Contact */
 .contactSection{
-    height: 30vh;
+    height: 80vh;
     background-color: #4CBD79 ;
+}
+#contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+.contactButton{
+    padding: 0.8rem;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 40%;
+    color: #fff;
+    border: 2px solid #fff;
 }

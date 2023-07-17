@@ -1,3 +1,5 @@
+import IconLinkedinAlt from "./components/IconComponents/LinkedInIcon";
+import IconMail from "./components/IconComponents/MailIcon";
 import ContactStyles from "./styles/index.module.css";
 
 const Contact = () => {
@@ -33,7 +35,16 @@ const Contact = () => {
       </div>
       {/* SECTION */}
       <section className={ContactStyles.contactSection}>
-        <div>Contacto</div>
+        <div id={ContactStyles.contact}>
+          <div className={ContactStyles.iconContainer}>
+            <IconLinkedinAlt height={"8rem"} width={"8rem"} />
+            <button className={ContactStyles.contactButton}>LinkedIn</button>
+          </div>
+          <div className={ContactStyles.iconContainer}>
+            <IconMail height={"8rem"} width={"8rem"} />
+            <button className={ContactStyles.contactButton}>Email</button>
+          </div>
+        </div>
       </section>
     </>
   );
