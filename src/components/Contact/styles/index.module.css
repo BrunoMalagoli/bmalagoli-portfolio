@@ -25,28 +25,90 @@
 }
 
 /*Contact */
+.contactTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactTitle > h3{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2vh;
+}
+.contactTitle > p{
+    text-align: center;
+    color: #fff;
+    width: 60%;
+    padding-bottom: 2vh;
+    font-size: 1.3rem;
+}
 .contactSection{
-    height: 80vh;
+    height: 100vh;
     background-color: #4CBD79 ;
+    display: flex;
+    flex-direction: column;
 }
 #contact{
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 }
 .iconContainer{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 50%;
+    width: 50%;
 }
 .contactButton{
     padding: 0.8rem;
     background-color: transparent;
     border-radius: 10px;
-    width: 40%;
+    width: 50%;
     color: #fff;
     border: 2px solid #fff;
+}
+.contactButton :hover{
+    background-color: #fff;
+    color: #4CBD79;
+    cursor: pointer;
+}
+@media (min-width: 778px) {
+    #contact{
+        flex-direction: row;
+        justify-content: center;
+        height: 70%;
+    }
+    .contactSection{
+        height: 55vh;
+        background-color: #4CBD79 ;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactButton{
+        padding: 0.8rem;
+        background-color: transparent;
+        border-radius: 10px;
+        width: 40%;
+        color: #fff;
+        border: 2px solid #fff;
+        font-size: 1.2rem;
+    }
+    .contactButton :hover{
+        background-color: #fff;
+        color: #4CBD79;
+        cursor: pointer;
+    }
+    .iconContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 30%;
+    }
 }
