@@ -47,7 +47,7 @@ const NavBar = () => {
             <li>Proyectos</li>
           </Link>
           <Link
-            to=""
+            to="contacto"
             spy={true}
             smooth={true}
             duration={200}
