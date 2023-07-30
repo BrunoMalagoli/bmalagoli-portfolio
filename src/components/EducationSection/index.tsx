@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const EducationSection = () => {
   return (
     <Element name="educacion">
-      <Fade>
+      <Fade delay={200}>
         <section>
           <div id={EducationStyles.educacion_container}>
             <h2>Educación</h2>

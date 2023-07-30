@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 const AboutSection = () => {
   return (
     <Element name="about">
-      <Fade>
+      <Fade delay={200}>
         <section id={AboutSectionStyles.about_container}>
           <div className={AboutSectionStyles.about_img_container}>
             <div className={AboutSectionStyles.about_img} />

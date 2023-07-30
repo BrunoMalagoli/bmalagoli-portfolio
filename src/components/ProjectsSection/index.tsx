@@ -12,7 +12,7 @@ import { Fade } from "react-awesome-reveal";
 const ProjectsSection = () => {
   return (
     <Element name="proyectos">
-      <Fade>
+      <Fade delay={200}>
         <section>
           <div className={ProjectsStyles.projects_container}>
             <h2>Proyectos</h2>

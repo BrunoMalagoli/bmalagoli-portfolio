@@ -11,7 +11,7 @@ const Contact = () => {
     <>
       {/* WAVES */}
       <Element name="contacto">
-        <Fade>
+        <Fade delay={200}>
           <div className={ContactStyles.waveContainer}>
             <div
               className={
