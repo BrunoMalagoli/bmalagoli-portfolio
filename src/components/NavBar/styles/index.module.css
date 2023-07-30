@@ -1,42 +1,73 @@
 /*Verde : #4CBD79*/
 
 /*Contenedores*/
-.nav_container{
+#nav_container{
     background-color: #f9f9f7 ;
     width: 96%;
     height: 12vh;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-left: 2%;
     padding-right: 2%;
     position: fixed;
     z-index: 10;
+    transition: 0.8s ease-in-out;
+}
+#nav_container_active{
+    background-color: #f9f9f7 ;
+    width: 96%;
+    height: 50vh;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding-left: 2%;
+    padding-right: 2%;
+    position: fixed;
+    z-index: 10;
+    transition: 0.8s ease-in-out;
 }
 .nav_links_container{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    width: 55%;
-    height: 100%;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    transition:  1s ease-out ;
 }
 
 /*Elementos del nav*/
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+}
+#nav_button{
+    background-color: #f9f9f7 ;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#nav_button:hover{
+    cursor: pointer;
+}
+
+
 .nav_links{
     display: flex;
     width: 100%;
     height: 100%;
-    flex-direction: row ;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
-.nav_links > a{
-    width: 25%;
+.nav_links  >div> a{
+    width: auto;
 }
-.nav_links > a :hover{
+.nav_links >div > a :hover{
     cursor: pointer;
 }
-.nav_links > a > li{
+
+.nav_links >div> a > li{
     color: rgba(0,0,0,.55);
     list-style: none;
     width: 100%;
@@ -53,8 +84,64 @@
 .active_li::after{
     content: '';
     display: block;
-    width: 70%;
+    width: 100%;
     height: 2px;
     background: #4CBD79;
     transition: width .3s;
 }
+
+
+.nav_links_container_desk{
+    display: none;
+}
+
+/*ESTILOS DESKTOP*/
+@media (min-width:992px) {
+    .nav_links_container_desk{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 55%;
+        height: 100%;
+    }
+    #nav_button{
+        display: none;
+    }
+    .nav_links_desk{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: row ;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .nav_links_desk >div> a{
+        width: 25%;
+    }
+    .nav_links_desk >div> a :hover{
+        cursor: pointer;
+    }
+    .nav_links_desk >div> a > li{
+        color: rgba(0,0,0,.55);
+        list-style: none;
+        width: 100%;
+        text-align: left;
+        font-size: larger;
+    }
+    
+    .active_li_desk{
+        color: rgba(0,0,0,.55);
+        list-style: none;
+        width: 100%;
+        text-align: left;
+    }
+    .active_li_desk::after{
+        content: '';
+        display: block;
+        width: 70%;
+        height: 2px;
+        background: #4CBD79;
+        transition: width .3s;
+    }
+}
+    
