@@ -4,10 +4,12 @@ import ProjectCard from "./components/ProjectCard";
 import {
   IconExpress,
   IconMongodb,
+  IconNextdotjs,
   IconReact,
   IconTypescript,
 } from "../EducationSection/components/TechStack/IconComponents";
 import { Fade } from "react-awesome-reveal";
+import IconMaterialUi from "../EducationSection/components/TechStack/IconComponents/IconMUI";
 
 const ProjectsSection = () => {
   return (
@@ -18,7 +20,7 @@ const ProjectsSection = () => {
             <h2>Proyectos</h2>
             <ProjectCard
               title="nin-js"
-              description="Web app estilo Quiz-game con preguntas de programación"
+              description="Web app responsive estilo Quiz-game con preguntas de programación"
               tech={[
                 <IconReact height={"3rem"} width={"3rem"} />,
                 <IconTypescript height={"3rem"} width={"3rem"} />,
@@ -35,17 +37,21 @@ const ProjectsSection = () => {
               repoUrl="https://github.com/BrunoMalagoli/NinJS-Vite"
             />
             <ProjectCard
-              title="nin-js"
-              description="Web app estilo Quiz-game con preguntas de programación"
+              title="todo-app"
+              description="Aplicación web responsive donde puedes organizar tus tareas"
               tech={[
-                <IconReact height={"3rem"} width={"3rem"} />,
+                <IconNextdotjs height={"3rem"} width={"3rem"} />,
                 <IconTypescript height={"3rem"} width={"3rem"} />,
-                <IconExpress height={"3rem"} width={"3rem"} />,
                 <IconMongodb height={"3rem"} width={"3rem"} />,
+                <IconMaterialUi height={"3rem"} width={"3rem"} />,
               ]}
-              features={[""]}
-              url=""
-              repoUrl=""
+              features={[
+                "Agregar y eliminar tareas",
+                "Cambiar el estado de las tareas (Pendientes , En progreso, Completadas)",
+                "Drag and Drop para cambiar los estados de las tareas (disponible en version desktop)",
+              ]}
+              url="https://todo-app-bruno.vercel.app/"
+              repoUrl="https://github.com/BrunoMalagoli/todo-app"
             />
           </div>
         </section>

@@ -21,7 +21,8 @@
     color: #03983e;
     font-weight: 800;
     font-size: 2.5rem;
-    width: 7rem;
+    width: auto;
+    margin-right: 0.5rem;
 }
 .card_title > span {
     width: 5rem;
