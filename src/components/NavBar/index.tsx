@@ -19,7 +19,7 @@ const NavBar = () => {
       <div id={NavStyles.navbar}>
         <div id={NavStyles.logo}>
           <Link to="inicio" spy={true} smooth={true} duration={200}>
-            <img width={"50px"} src="src/assets/logo.svg" alt="logo" />
+            <img width={"50px"} src="/logo.svg" alt="logo" />
           </Link>
         </div>
         <button

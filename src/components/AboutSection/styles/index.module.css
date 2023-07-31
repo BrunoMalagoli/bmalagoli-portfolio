@@ -22,7 +22,7 @@
     margin-top: 5vh;
     animation: morph 8s ease-in-out infinite;
     transition: all 1s ease-in-out;
-    background-image: url("src/assets/profile.jpg");
+    background-image: url("/profile.jpg");
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;

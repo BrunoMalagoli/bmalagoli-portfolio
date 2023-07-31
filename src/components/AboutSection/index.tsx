@@ -30,7 +30,7 @@ const AboutSection = () => {
             </p>
             <div>
               <button>
-                <a href="src/assets/BrunoCV.pdf" download={"Bruno_Malagoli_CV"}>
+                <a href="/BrunoCV.pdf" download={"Bruno_Malagoli_CV"}>
                   Descargar CV
                 </a>
               </button>
