@@ -19,7 +19,7 @@ const MainText = () => {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("Desarrollador Frontend")
+                    .typeString("Desarrollador FullStack")
                     .pauseFor(2500)
                     .deleteAll()
                     .start();
