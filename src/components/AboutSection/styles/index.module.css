@@ -22,7 +22,7 @@
     margin-top: 5vh;
     animation: morph 8s ease-in-out infinite;
     transition: all 1s ease-in-out;
-    background-image: url("/profile.jpg");
+    background-image: url("/profile.jpeg");
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,6 +153,9 @@
         align-items: center;
         justify-content: center;
         margin-top: 0;
+    }
+    .about_content > p{
+        padding: 10px;
     }
     .about_content > div{
         width: 100%;

@@ -12,21 +12,20 @@ const AboutSection = () => {
           <div className={AboutSectionStyles.about_content}>
             <h2>Sobre mi</h2>
             <p>
-              Buenas! Me llamo Bruno Malagoli, soy un Desarrollador web viviendo
-              actualmente en Buenos Aires , Argentina.
+              Buenas! Me llamo Bruno Malagoli, desarrollo soluciones en la web
+              desde Buenos Aires , Argentina.
             </p>
             <p>
-              Mi curiosidad y pasión por la tecnología me llevaron a iniciar mi
-              carrera como programador de forma autodidacta. A través de cursos
-              y exploración en Internet, fortalecí mis habilidades y decidí dar
-              un paso más al inscribirme en una Tecnicatura Universitaria en
-              Programación en la Universidad Tecnologica Nacional.
+              Mi enfoque se centra en entender las metas y visiones de mis
+              clientes para ofrecer soluciones personalizadas y de alta calidad
+              que impulsen su éxito en el mercado. Mi objetivo es superar las
+              expectativas en cada proyecto en el que me involucro.
             </p>
             <p>
-              Actualmente, estoy cursando la tecnicatura mientras sigo
-              perfeccionándome en las últimas tecnologías con el objetivo de
-              conseguir mi primera oportunidad en el mercado laboral y poner en
-              práctica mis habilidades.
+              Actualmente trabajo en proyectos de manera freelance, además estoy
+              interesado en unirme a un equipo de trabajo en el que pueda
+              aportar mis habilidades y aprender nuevas, si estas interesado en
+              mi perfil hablemos!
             </p>
             <div>
               <button>
