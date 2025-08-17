@@ -97,6 +97,28 @@
     font-size: 1.3rem;
 }
 
+/* Botón Ver más */
+.read_more_btn {
+    background: none;
+    border: none;
+    color: #03983e;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+    display: block;
+    width: fit-content;
+}
+
+.read_more_btn:hover {
+    color: #057230;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
 @media (min-width: 778px) {
     .tech{
         display: flex;

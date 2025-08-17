@@ -2,11 +2,12 @@ import IconGithub from "./IconComponents/IconGH";
 import IconLi from "./IconComponents/IconLi";
 import IconLink from "./IconComponents/IconLink";
 import ProjectCardStyles from "./styles/index.module.css";
+import { useState } from "react";
 
 type ProjectCardTypes = {
   title: string;
   description: string;
-  url: string;
+  url?: string;
   tech: React.ReactNode[];
   features: string[];
   repoUrl: string;
@@ -20,15 +21,23 @@ const ProjectCard = ({
   features,
   repoUrl,
 }: ProjectCardTypes) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const maxInitialFeatures = 3;
+  const hasMoreFeatures = features.length > maxInitialFeatures;
+
   return (
     <div className={ProjectCardStyles.card_container}>
       <div className={ProjectCardStyles.card_head}>
         <div className={ProjectCardStyles.card_title}>
           <h3>{title}</h3>
           <span>
-            <a href={url} target="_blank">
-              <IconLink height={"2rem"} width={"2rem"} />
-            </a>
+            {url ? (
+              <a href={url} target="_blank">
+                <IconLink height={"2rem"} width={"2rem"} />
+              </a>
+            ) : (
+              ""
+            )}
             <a href={repoUrl} target="_blank">
               <IconGithub height={"2rem"} width={"2rem"} />
             </a>
@@ -45,7 +54,7 @@ const ProjectCard = ({
       <div className={ProjectCardStyles.card_body}>
         <h5>Funcionalidades:</h5>
         <ul>
-          {features.map((feature) => {
+          {(isExpanded ? features : features.slice(0, maxInitialFeatures)).map((feature) => {
             return (
               <div key={feature}>
                 <span>
@@ -56,6 +65,14 @@ const ProjectCard = ({
             );
           })}
         </ul>
+        {hasMoreFeatures && (
+          <button
+            className={ProjectCardStyles.read_more_btn}
+            onClick={() => setIsExpanded(!isExpanded)}
+          >
+            {isExpanded ? "Ver menos" : `Ver más (${features.length - maxInitialFeatures} adicionales)`}
+          </button>
+        )}
       </div>
     </div>
   );
