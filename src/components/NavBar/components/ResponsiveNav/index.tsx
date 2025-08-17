@@ -41,6 +41,15 @@ const ResposiveNav: FC<Props> = ({ isOpen, isMobile }) => {
             <li>Sobre mi</li>
           </Link>
           <Link
+            to="experiencia"
+            spy={true}
+            smooth={true}
+            duration={200}
+            activeClass={NavStyles.active_li}
+          >
+            <li>Experiencia</li>
+          </Link>
+          <Link
             to="educacion"
             spy={true}
             smooth={true}
