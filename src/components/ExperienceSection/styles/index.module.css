@@ -1,0 +1,16 @@
+section{
+    height: 100%;
+    padding-top: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#experiencia_container{
+    width: 80%;
+    padding: 2rem;
+}
+#experiencia_container > h2{
+    width: 100%;
+    font-size: 3.3rem;
+    padding-bottom: 2vh;
+}
