@@ -1,4 +1,4 @@
-export * from "./IconCplusplus";
+export * from "./IconCSharp";
 export * from "./IconCss";
 export * from "./IconExpress";
 export * from "./IconGit";
@@ -11,3 +11,7 @@ export * from "./IconNpm";
 export * from "./IconReact";
 export * from "./IconSQL";
 export * from "./IconTypescript";
+export { IconNestjs } from "./NestJs";
+export { IconPostgreSQL } from "./PostgreSql";
+export { IconKubernetes } from "./K8s";
+export { IconTailwind } from "./Tailwind";
